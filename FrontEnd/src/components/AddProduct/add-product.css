@@ -1,0 +1,17 @@
+.add-product {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.add-product-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 300px !important;
+    align-items: center;
+    justify-content: center;
+}

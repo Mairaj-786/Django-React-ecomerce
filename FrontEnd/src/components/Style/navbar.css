@@ -1,0 +1,112 @@
+.top_navbar {
+    position: fixed;
+    top: 0%;
+    height: 44px;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    border-bottom: 3px solid orange;
+    /* padding: 0 calc(3.5vw); */
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.input_search {
+    width: 60%;
+    display: flex;
+    align-items: center;
+}
+.ham {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    opacity: 0;
+    color: orange;
+}
+.input_search h2 {
+    display: flex;
+    flex: 1 !important;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-left: 1em;
+    color: orange;
+}
+.input_search input {
+    width: 80%;
+    outline: none;
+    padding: 0.2em 0.7em;
+    border: 1px solid rgb(172, 167, 167);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-left: 2em;
+    font-size: 14px;
+    opacity: 0.8;
+}
+.input_search > span {
+    display: flex;
+    background-color: orange;
+    padding: 7px 0.7em;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.right_side_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.right_side_menu ul {
+    display: flex;
+    margin-top: 1em !important;
+}
+.right_side_menu ul li {
+    list-style: none;
+}
+.right_side_menu ul li a {
+    padding: 11px 13px;
+    border-left: 2px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    text-decoration-line: none;
+    background: orange;
+}
+
+@media (max-width: 769px) {
+    .top_navbar {
+        border-bottom: none;
+        height: auto;
+    }
+    .wrapper {
+        display: block;
+        /* margin-top: 1em; */
+    }
+    .input_search {
+        width: 100%;
+        padding: 0 1em;
+    }
+    .input_search h2 {
+        margin: 0%;
+    }
+    .right_side_menu {
+        width: 100%;
+        display: block;
+    }
+    .right_side_menu ul li {
+        width: 100%;
+    }
+    .right_side_menu ul li a {
+        display: flex;
+        justify-content: center;
+    }
+    .ham {
+        opacity: 1;
+    }
+}

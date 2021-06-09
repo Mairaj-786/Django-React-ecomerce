@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 991px) {
+    html {
+        font-size: 90%;
+    }
+}
+@media (max-width: 769px) {
+    html {
+        font-size: 80%;
+    }
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --mulish-: "Mulish", sans-serif;
+}

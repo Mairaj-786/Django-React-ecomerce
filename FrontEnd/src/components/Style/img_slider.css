@@ -1,0 +1,20 @@
+.img_slider {
+    background: none;
+    width: 78%;
+    margin-right: 1em;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.img_slider img {
+    width: 100%;
+    height: calc(100vh - 44px);
+    object-fit: cover;
+}
+
+@media (max-width: 769px) {
+    .img_slider {
+        width: 100%;
+        margin: 1em 1em;
+    }
+}

@@ -1,0 +1,18 @@
+.delevery_staus {
+    position: relative;
+    width: 100%;
+    padding: 3em 0;
+    background: #f6f5f5dd;
+}
+
+.delevery_staus_wrapper_text {
+    font-weight: bold;
+    font-size: 13px;
+    opacity: 0.8;
+}
+.delevery_staus_wrapper_text span {
+    font-weight: 300;
+    font-size: 12px;
+    font-family: var(--mulish-);
+    opacity: 0.8;
+}

@@ -1,0 +1,24 @@
+.footer {
+    position: relative;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    min-height: 200px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1em 0;
+}
+.footer_wrapper strong {
+    font-size: 15px;
+    padding-bottom: 20px;
+    opacity: 0.8;
+}
+.footer_wrapper p {
+    font-weight: 400;
+    font-size: 13px;
+    opacity: 0.8;
+}
